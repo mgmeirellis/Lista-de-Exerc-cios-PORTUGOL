@@ -3,7 +3,9 @@
 
 - **Exercício 1:** Identificador de Par ou Ímpar
     - Objetivo: Ler um número inteiro e determinar se é par ou ímpar.
-Código 
+
+
+Código:
 
 programa {
   funcao inicio() {
