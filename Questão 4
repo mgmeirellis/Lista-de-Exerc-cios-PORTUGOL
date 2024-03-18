@@ -1,0 +1,63 @@
+Calculadora Básica
+
+Objetivo: Ler dois números e um operador matemático (+, -, *, /) e realizar a operação correspondente.
+
+programa {
+  funcao inicio() {
+  real numero1
+  real numero2
+  caracter operacao
+  real op
+
+  escreva("Escolha um número: ")
+  leia(numero1)
+
+
+  escreva("Escolha outra número: ")
+  leia(numero2)
+
+
+  escreva("Escolha 1 operação", "\nOpção 1: Para adição escolha +", "\nOpção 2: Para subtração escolha -","\nOpção 3: Para multiplicação escolha *", "\nOpção 4: Para divisão escolha /")
+  escreva("Escolha a operação: ")
+  leia(operacao)
+  
+    se (operacao!= "+" e operacao!= "-" e operacao!= "*" e operacao !="/")
+    escreva("Opção Inválida")
+
+
+
+  escolha(operacao) {
+
+  
+    caso "+":
+      escreva("A operação escolhida foi adição") 
+      op = numero1 + numero2
+      escreva("\nA adição dos números é ", op)
+    pare
+
+    caso "-":
+      escreva("A operação escolhida foi subtração") 
+      op = numero1 - numero2
+      escreva("\nA subtração dos números é ", op)
+
+    pare
+      
+
+      caso "*":
+      escreva("A operação escolhida foi multiplicação") 
+      op = numero1 * numero2
+      escreva("\nA multiplicação dos números é ", op)
+
+    pare
+
+
+    caso "/":
+      escreva("A operação escolhida foi divisão") 
+      op = numero1 / numero2
+      escreva("\nA divisão dos números é ", op)
+
+    pare
+      
+      }
+
+    escreva("\nFim do programa")
